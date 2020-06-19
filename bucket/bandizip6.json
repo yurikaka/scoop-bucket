@@ -9,10 +9,10 @@
     "url": "https://dl.bandisoft.com/bandizip.old/BANDIZIP6-PORTABLE.ZIP",
     "architecture": {
         "64bit": {
-            "pre_install": "Rename-Item \"$dir\\Bandizip.x64.exe\" 'Bandizip.exe'"
+            "pre_install": "Rename-Item \"$dir\\Bandizip64.exe\" 'Bandizip.exe'"
         },
         "32bit": {
-            "pre_install": "Rename-Item \"$dir\\Bandizip.x86.exe\" 'Bandizip.exe'"
+            "pre_install": "Rename-Item \"$dir\\Bandizip32.exe\" 'Bandizip.exe'"
         }
     },
     "installer": {
