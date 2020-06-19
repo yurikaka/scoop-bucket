@@ -1,13 +1,12 @@
 {
-    "version": "7.08",
+    "version": "6.27",
     "description": "Yet another typical ZIP archiver",
     "homepage": "http://www.bandisoft.com/bandizip/",
     "license": {
         "identifier": "Freeware",
         "url": "https://en.bandisoft.com/bandizip/eula/"
     },
-    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-PORTABLE.ZIP",
-    "hash": "254f4de574103e871fb15f1c69410beac89582063afcfbd8a4e46b252979a9b6",
+    "url": "https://dl.bandisoft.com/bandizip.old/BANDIZIP6-PORTABLE.ZIP",
     "architecture": {
         "64bit": {
             "pre_install": "Rename-Item \"$dir\\Bandizip.x64.exe\" 'Bandizip.exe'"
@@ -29,12 +28,5 @@
             "Bandizip"
         ]
     ],
-    "persist": "Bandizip.ini",
-    "checkver": {
-        "url": "https://en.bandisoft.com/bandizip/history/",
-        "regex": "v([\\d.]+)</font"
-    },
-    "autoupdate": {
-        "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-PORTABLE.ZIP"
-    }
+    "persist": "Bandizip.ini"
 }
